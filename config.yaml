@@ -1,0 +1,5 @@
+programs:
+  app:
+    cmd: "python3 -m http.server 8080"
+  mapp:
+    cmd: "ping localhost -c 4"
